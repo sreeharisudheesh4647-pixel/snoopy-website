@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snoopy The Beagle | Portfolio</title>
+
+    <link rel="stylesheet" href="snoopy.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+
+    <h2 class="logo">🐶 Snoopy</h2>
+
+    <i class="fa-solid fa-bars menu-btn"></i>
+
+    <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="#" class="signup-btn">Sign Up</a>
+
+</nav>
+</header>
+
+<section class="hero" id="hero">
+
+    <div class="hero-content">
+
+        <h1>Meet Snoopy 🐶</h1>
+
+        <h3>
+            The friendliest beagle in town.
+        </h3>
+
+        <p>
+            Snoopy loves adventures, treats, naps,
+            and making every day exciting.
+        </p>
+
+        <a href="#about" class="hero-btn">
+            Learn More
+        </a>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="snoopy.png" alt="Snoopy">
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <div class="about-image">
+        <img src="snoopy.jpeg" alt="Snoopy">
+    </div>
+
+    <div class="about-content">
+
+        <h2>About Snoopy</h2>
+
+        <p>
+            Snoopy is a playful and energetic beagle
+            who enjoys exploring, running around,
+            and spending time with family.
+        </p>
+
+        <p>
+            His favorite things include snacks,
+            belly rubs, and long naps after a busy day.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="projects" id="projects">
+
+    <h2>My Adventures</h2>
+
+    <div class="project-grid">
+
+        <div class="card">
+            <img src="snoopy3.jpeg" alt="">
+            <h3>Park Explorer</h3>
+            <p>Snoopy exploring new places.</p>
+        </div>
+
+        <div class="card">
+            <img src="snoopy4.jpeg" alt="">
+            <h3>Treat Seeker</h3>
+            <p>Trying to Get Treats.</p>
+        </div>
+
+        <div class="card">
+            <img src="snoopy2.jpeg" alt="">
+            <h3>Nap Master</h3>
+            <p>Professional sleeping expert.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2>Contact Snoopy</h2>
+
+    <div class="contact-container">
+
+        <h3><i class="fa-solid fa-phone"></i> +91 98765 43210</h3>
+
+        <h3><i class="fa-solid fa-envelope"></i> snoopy@email.com</h3>
+
+        <h3><i class="fa-solid fa-location-dot"></i> India</h3>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 Snoopy Portfolio. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<script>
+const menuBtn = document.querySelector(".menu-btn");
+const navLinks = document.querySelector(".nav-links");
+
+menuBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+</script>
+</body>
+</html>
